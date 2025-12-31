@@ -10,7 +10,7 @@ def home():
 
 @app.route("/hello/<name>")
 def hello(name):
-    return jsonify(message=f"Hello, {name}!")
+    return jsonify(message=f"Welcome {name}!")
 
 
 @app.route("/echo", methods=["POST"])
