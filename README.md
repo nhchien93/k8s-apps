@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-docker build -t <docker-username>k8s-app-$(date +%s) -f Dockerfile .
+docker build -t <docker-username>/k8s-app:staging-$(date +%s) -f Dockerfile .
 docker login
 docker push
 ```
